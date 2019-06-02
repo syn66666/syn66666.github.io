@@ -1,25 +1,61 @@
 <html>
 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
-<title>�½���ҳ 1</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>新建网页 1</title>
 <base target="main">
+<script language="JavaScript">
+<!--
+function FP_preloadImgs() {//v1.0
+ var d=document,a=arguments; if(!d.FP_imgs) d.FP_imgs=new Array();
+ for(var i=0; i<a.length; i++) { d.FP_imgs[i]=new Image; d.FP_imgs[i].src=a[i]; }
+}
+
+function FP_swapImg() {//v1.0
+ var doc=document,args=arguments,elm,n; doc.$imgSwaps=new Array(); for(n=2; n<args.length;
+ n+=2) { elm=FP_getObjectByID(args[n]); if(elm) { doc.$imgSwaps[doc.$imgSwaps.length]=elm;
+ elm.$src=elm.src; elm.src=args[n+1]; } }
+}
+
+function FP_getObjectByID(id,o) {//v1.0
+ var c,el,els,f,m,n; if(!o)o=document; if(o.getElementById) el=o.getElementById(id);
+ else if(o.layers) c=o.layers; else if(o.all) el=o.all[id]; if(el) return el;
+ if(o.id==id || o.name==id) return o; if(o.childNodes) c=o.childNodes; if(c)
+ for(n=0; n<c.length; n++) { el=FP_getObjectByID(id,c[n]); if(el) return el; }
+ f=o.forms; if(f) for(n=0; n<f.length; n++) { els=f[n].elements;
+ for(m=0; m<els.length; m++){ el=FP_getObjectByID(id,els[n]); if(el) return el; } }
+ return null;
+}
+// -->
+</script>
 </head>
 
-<body>
+<body onload="FP_preloadImgs(/*url*/'button1F.jpg', /*url*/'button20.jpg', /*url*/'button22.jpg', /*url*/'button23.jpg', /*url*/'button25.jpg', /*url*/'button26.jpg', /*url*/'button28.jpg', /*url*/'button29.jpg', /*url*/'button2B.jpg', /*url*/'button2C.jpg', /*url*/'button2E.jpg', /*url*/'button2F.jpg')">
 
 <div align="center">
-	<table border="0" width="100%" style="position: absolute; left: 0px; top: 0px; right: 0; bottom: 0; height: 124px" align="left" height="100%">
+	<table border="0" width="100%" style="position: absolute; left: 0px; top: 0px; right: 0; bottom: 0; height: 124px; width:1496px" align="left" height="100%">
 		<tr>
-			<td width="177">��</td>
-			<td width="177">��</td>
-			<td width="177">��</td>
-			<td width="332">
+			<td width="12%" align="center" valign="bottom">
+			<a target="main" href="introduction/index.html">
+			<img border="0" id="img1" src="button1E.jpg" height="53" width="160" alt="介 绍" fp-style="fp-btn: Glow Tab 1; fp-font: 微软雅黑" fp-title="介 绍" onmouseover="FP_swapImg(1,0,/*id*/'img1',/*url*/'button1F.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1E.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img1',/*url*/'button20.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img1',/*url*/'button1F.jpg')"></a></td>
+			<td width="12%" align="center" valign="bottom">
+			<a target="main" href="idea/index.html">
+			<img border="0" id="img2" src="button21.jpg" height="53" width="160" alt="创 意" onmouseover="FP_swapImg(1,0,/*id*/'img2',/*url*/'button22.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img2',/*url*/'button21.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img2',/*url*/'button23.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img2',/*url*/'button22.jpg')" fp-style="fp-btn: Glow Tab 2; fp-font: 微软雅黑" fp-title="创 意"></a></td>
+			<td width="12%" align="center" valign="bottom">
+			<a target="main" href="album/index.html">
+			<img border="0" id="img3" src="button24.jpg" height="53" width="160" alt="相 册" onmouseover="FP_swapImg(1,0,/*id*/'img3',/*url*/'button25.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img3',/*url*/'button24.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img3',/*url*/'button26.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img3',/*url*/'button25.jpg')" fp-style="fp-btn: Glow Tab 3; fp-font: 微软雅黑" fp-title="相 册"></a></td>
+			<td width="28%" align="center">
 			<p align="center">
 			<img border="0" src="logo.jpg" width="405" height="153"></td>
-			<td width="183">��</td>
-			<td width="184">��</td>
-			<td width="184">��</td>
+			<td width="12%" align="center" valign="bottom">
+			<a target="main" href="share/index.html">
+			<img border="0" id="img4" src="button27.jpg" height="53" width="160" alt="分 享" onmouseover="FP_swapImg(1,0,/*id*/'img4',/*url*/'button28.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img4',/*url*/'button27.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img4',/*url*/'button29.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img4',/*url*/'button28.jpg')" fp-style="fp-btn: Glow Tab 4; fp-font: 微软雅黑" fp-title="分 享"></a></td>
+			<td width="12%" align="center" valign="bottom">
+			<a href="option/index.html">
+			<img border="0" id="img5" src="button2A.jpg" height="53" width="160" alt="选 项" onmouseover="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2B.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2A.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img5',/*url*/'button2C.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img5',/*url*/'button2B.jpg')" fp-style="fp-btn: Glow Tab 6; fp-font: 微软雅黑" fp-title="选 项"></a></td>
+			<td width="12%" align="center" valign="bottom">
+			<a target="main" href="about/index.html">
+			<img border="0" id="img6" src="button2D.jpg" height="53" width="160" alt="关 于" onmouseover="FP_swapImg(1,0,/*id*/'img6',/*url*/'button2E.jpg')" onmouseout="FP_swapImg(0,0,/*id*/'img6',/*url*/'button2D.jpg')" onmousedown="FP_swapImg(1,0,/*id*/'img6',/*url*/'button2F.jpg')" onmouseup="FP_swapImg(0,0,/*id*/'img6',/*url*/'button2E.jpg')" fp-style="fp-btn: Glow Tab 9; fp-font: 微软雅黑" fp-title="关 于"></a></td>
 		</tr>
 	</table>
 </div>
