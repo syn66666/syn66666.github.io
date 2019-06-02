@@ -47,6 +47,12 @@ function FP_getObjectByID(id,o) {//v1.0
 			<td width="52%" align="center">
 			<div style="position: absolute; width: 100%; height: 100px; z-index: 1; left: -1px; top: 0px" id="layer1">
 				<img border="0" src="logo.jpg" width="347" height="129"></div>
+			<div style="position: absolute; width: 391px; height: 30px; z-index: 2; top: 9px; right:5%" id="layer2">
+				<p align="right"><span id="cg">2016/12/21 上午12:00:00</span>
+<script>
+<!--这个cg就是span的id，初始化Date时间并转化为字符string类型,每1000毫秒，setInterval() 就会调用函数，直到被关闭。-->
+setInterval("cg.innerHTML=new Date().toLocaleString()",1000);
+</script></div>
 			<p align="center">
 			&nbsp;</td>
 			<td width="8%" align="center" valign="bottom">
